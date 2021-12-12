@@ -8,7 +8,7 @@
 #include <vector>
 
 /*
-Neural network designed to train on the MNIST data set for recognizing handwritten digits.
+Neural network designed to train on the MNIST data set for recognizing handwritten digits
 It is run with an input layer of 784 inputs (28x28 images) and 2 hidden layers, each with 15 neurons.
 The output layer has 10 neurons, each of which represents the probability that the image is the digit 0-9, in order.
 The sigmoid activation function is used.
